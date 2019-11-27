@@ -1,0 +1,214 @@
+.cona{
+   width:100%;
+    background-color: #aaaaaa;
+    margin-top:0em;
+    height:4em;
+    color:black;
+    border-color:#aaaaaa;
+    padding:23px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.errormessage{
+    margin-top:2%;
+    color:red;
+}
+body {
+    background-color: #d3d3d3;
+    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box}
+
+.hedo
+{
+    margin-top: 3em;
+    width:30%;
+    float:left;
+}
+.cona:hover{background-color:#999999;}
+.rgt
+{
+    float:right;
+}
+.imgo
+{
+    background-color: #d3d3d3;
+    width:30%;
+    height:100vh;
+    min-height: 200px;
+    float:left;
+    margin-bottom:0;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #bbbbbb;
+  border:2px;
+  border-color:black;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 22px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 2px;
+}
+
+.topnav a:hover {
+  background-color: #999999;
+  color: black;
+}
+
+.active {
+  background-color: #999999;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.img{
+    width:70%;
+    height:100vh;
+    min-height: 200px;
+    float:right;
+    margin-bottom:0;
+}
+
+
+form{
+    width:30%;
+}
+@media screen and (max-width: 800px) {
+    .hedo{width:100%;}
+    .cona{width:80%;margin-left:2em;margin-right:2em;}
+    form{width:100%;}
+    .imgo{width:100%;}
+    .img{display:none;
+    }
+ 
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-height: 800px) {
+.img{height:100vh;}
+}
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #999999;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 50%;
+    border-radius: 23%;
+}
+
+.container {
+    padding: 16px;
+    
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.modal { 
+    z-index:-1; 
+    position: fixed;  
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 5% auto; 
+    border: 1px solid #888;
+    width: 60%;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+   .signupbtn {
+       width: 100%;
+    }
+}
